@@ -1,4 +1,4 @@
-A graduate class project in underactuated robotics at MIT towards long endurance flight with an unpowered glider.
+A graduate class project in underactuated robotics at MIT -- towards long endurance flight with an unpowered glider.
 
 Background
 ----------
