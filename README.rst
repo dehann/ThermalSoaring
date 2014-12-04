@@ -1,5 +1,13 @@
 A graduate class project in underactuated robotics at MIT. 
 
+Background
+----------
+
+.. image:: http://img.youtube.com/vi/FiH4pId-zFM/0.jpg
+   :target: vimeo.com/113614425
+
+`Video <https://vimeo.com/113614425>`_
+
 Installing Flightgear
 ======================
 
