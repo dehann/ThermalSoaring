@@ -33,6 +33,7 @@ In Julia
     Pkg.add("NLopt")
     Pkg.add("JuMP")
     Pkg.add("Winston")
+    Pkg.add("PyCall")
 
 Add to bashrc
 -------------
@@ -42,7 +43,7 @@ Add to bashrc
     export PYTHONPATH=$PYTHONPATH: bla/bla/bla/ThermalSoaring/python/
 
 Running the processes
-=====================
+---------------------
 
 There are five processes to execute:
 
