@@ -1,3 +1,4 @@
+A graduate class project in underactuated robotics at MIT. 
 
 Installing Flightgear
 ======================
