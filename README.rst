@@ -44,7 +44,7 @@ Add to bashrc
 Running the processes
 =====================
 
-There are four processes to execute:
+There are five processes to execute:
 
 ::
 
