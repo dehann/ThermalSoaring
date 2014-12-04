@@ -1,0 +1,42 @@
+install fg with down_inst_.sh and copy run_fgfs.sh into the stable directory and launch from there. Run python and julia scripts separately
+
+Prerequisits
+============
+
+Julia 0.3
+Python 
+NLopt
+
+In Julia
+--------
+
+Pkg.add("NLopt")
+Pkg.add("JuMP")
+Pkg.add("Winston")
+Pkg.add("OpenStreetMap")
+
+In Python
+---------
+
+xaut.so and associated Py script are in the folder and needed to command the mouse
+
+testing git commit from remote branch checkout
+
+
+
+Add to bashrc
+-------------
+
+export PYTHONPATH=$PYTHONPATH: bla/bla/bla/ThermalSoaring/python/
+
+
+There are four processes to execute:
+
+::
+     ./run_fgfs.sh
+     ./python/Controller.py
+     ./python/VisualizationClient.py
+     ./python/StateMachine.py
+     julia julia/TrajReplanner.jl
+
+

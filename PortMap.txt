@@ -1,0 +1,10 @@
+All the ports
+
+5501 - udp filghtgear cntrl in
+5502 - udp flightgear cntrl out
+5503 - udp flightgear fdm in
+5504 - udp flightgear fdm out
+5505 - telnet port
+5508 - map server
+5510 - TCP Julia and Python
+5511 - TrajVisualization Server
