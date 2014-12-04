@@ -1,4 +1,12 @@
-install fg with down_inst_.sh and copy run_fgfs.sh into the stable directory and launch from there. Run python and julia scripts separately
+
+Installing Flightgear
+======================
+
+Copy download_and_compile.sh into a separate dictory on your computer and run to install FG.
+Copy fgstuff/cxml_cl/input_protocol.xml into the Flightgear install/fgdata/protocol directory.
+Copy run_fgfs.sh into the directory of FG installation and launch from there. 
+
+Run python and julia scripts separately.
 
 Prerequisits
 ============
@@ -13,22 +21,14 @@ In Julia
 Pkg.add("NLopt")
 Pkg.add("JuMP")
 Pkg.add("Winston")
-Pkg.add("OpenStreetMap")
-
-In Python
----------
-
-xaut.so and associated Py script are in the folder and needed to command the mouse
-
-testing git commit from remote branch checkout
-
-
 
 Add to bashrc
 -------------
 
 export PYTHONPATH=$PYTHONPATH: bla/bla/bla/ThermalSoaring/python/
 
+Running the processes
+=====================
 
 There are four processes to execute:
 
