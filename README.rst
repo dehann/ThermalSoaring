@@ -1,10 +1,9 @@
-A graduate class project in underactuated robotics at MIT. 
+A graduate class project in underactuated robotics at MIT towards long endurance flight with an unpowered glider.
 
 Background
 ----------
 
-.. image:: http://img.youtube.com/vi/FiH4pId-zFM/0.jpg
-   :target: vimeo.com/113614425
+In-situ replanning for autonomous thermal soaring.
 
 `Video <https://vimeo.com/113614425>`_
 
