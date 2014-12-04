@@ -11,21 +11,27 @@ Run python and julia scripts separately.
 Prerequisits
 ============
 
-Julia 0.3
-Python 
-NLopt
+::
+
+    Julia 0.3
+    Python 
+    NLopt
 
 In Julia
 --------
 
-Pkg.add("NLopt")
-Pkg.add("JuMP")
-Pkg.add("Winston")
+::
+
+    Pkg.add("NLopt")
+    Pkg.add("JuMP")
+    Pkg.add("Winston")
 
 Add to bashrc
 -------------
 
-export PYTHONPATH=$PYTHONPATH: bla/bla/bla/ThermalSoaring/python/
+::
+
+    export PYTHONPATH=$PYTHONPATH: bla/bla/bla/ThermalSoaring/python/
 
 Running the processes
 =====================
@@ -33,10 +39,11 @@ Running the processes
 There are four processes to execute:
 
 ::
-     ./run_fgfs.sh
-     ./python/Controller.py
-     ./python/VisualizationClient.py
-     ./python/StateMachine.py
-     julia julia/TrajReplanner.jl
+
+    ./run_fgfs.sh
+    ./python/Controller.py
+    ./python/VisualizationClient.py
+    ./python/StateMachine.py
+    julia julia/TrajReplanner.jl
 
 
