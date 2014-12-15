@@ -32,7 +32,6 @@ In Julia
 
     Pkg.add("NLopt")
     Pkg.add("JuMP")
-    Pkg.add("Winston")
     Pkg.add("PyCall")
 
 Add to bashrc
